@@ -1,6 +1,6 @@
 #!/bin/bash
 
-target_file="$HOME/.bashrc"
+target_file="$HOME/.bash_aliases"
 
 echo "The p4-traffictool alias will be removed from your bash configuration"
 while true; do
