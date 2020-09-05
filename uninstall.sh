@@ -1,8 +1,6 @@
 #!/bin/bash
 
 target_file="$HOME/.bashrc"
-# target_file="p4-traffictool/test.txt"
-echo "$target_file will be restored to $target_file.p4-traffictool.bak"
 
 restore_bak(){
 	ls "$target_file.p4-traffictool.bak" > /dev/null 2>&1
@@ -14,6 +12,7 @@ restore_bak(){
 	fi
 }
 
+echo "$target_file will be restored to $target_file.p4-traffictool.bak"
 while true; do
     read -p "Do you wish to continue (y/n)?" yn
     case $yn in
