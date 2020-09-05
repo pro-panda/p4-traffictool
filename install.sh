@@ -9,3 +9,5 @@ echo "alias p4-traffictool=$DIR/p4-traffictool.sh" >> "$target_file"
 echo "# End of changes by p4-traffictool" >> "$target_file"
 echo "Added alias for p4-traffictool to $target_file"
 echo "Backup of $target_file script created $target_file.p4-traffictool.bak"
+
+source "$HOME/.bashrc"
